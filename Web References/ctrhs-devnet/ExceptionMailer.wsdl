@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/MailException/ExceptionMailer" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/MailException/ExceptionMailer" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/MailException/ExceptionMailer">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="Send">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Machine" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ExceptionString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="recipient" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendGeneralMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="recipients" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="body" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="key" type="s1:guid" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendSoapIn">
+    <wsdl:part name="parameters" element="tns:Send" />
+  </wsdl:message>
+  <wsdl:message name="SendGeneralMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:SendGeneralMessage" />
+  </wsdl:message>
+  <wsdl:message name="SendGeneralMessageRPCSoapIn">
+    <wsdl:part name="recipients" type="s:string" />
+    <wsdl:part name="subject" type="s:string" />
+    <wsdl:part name="body" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendGeneralMessageRPCSoapOut" />
+  <wsdl:portType name="ExceptionMailerSoap">
+    <wsdl:operation name="Send">
+      <wsdl:input message="tns:SendSoapIn" />
+    </wsdl:operation>
+    <wsdl:operation name="SendGeneralMessage">
+      <wsdl:input message="tns:SendGeneralMessageSoapIn" />
+    </wsdl:operation>
+    <wsdl:operation name="SendGeneralMessageRPC">
+      <wsdl:input message="tns:SendGeneralMessageRPCSoapIn" />
+      <wsdl:output message="tns:SendGeneralMessageRPCSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ExceptionMailerSoap" type="tns:ExceptionMailerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="Send">
+      <soap:operation soapAction="http://tempuri.org/MailException/ExceptionMailer/Send" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="SendGeneralMessage">
+      <soap:operation soapAction="http://tempuri.org/MailException/ExceptionMailer/SendGeneralMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="SendGeneralMessageRPC">
+      <soap:operation soapAction="http://tempuri.org/MailException/ExceptionMailer/SendGeneralMessageRPC" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://tempuri.org/MailException/ExceptionMailer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://tempuri.org/MailException/ExceptionMailer" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ExceptionMailer">
+    <wsdl:port name="ExceptionMailerSoap" binding="tns:ExceptionMailerSoap">
+      <soap:address location="http://ctrhs-devnet/pardre1/MailException/ExceptionMailer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

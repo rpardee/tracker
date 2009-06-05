@@ -1,0 +1,295 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CHCRTracker
+</name>
+</assembly>
+<members>
+<member name="T:CHCRTracker.CHCR.todo_by_type_counts_vwDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StudiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StatusesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitStatusesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitContactsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumberTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumbersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.AddressesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.SamplingProgramVersionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactsOverviewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.QueriedAccessCodeListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.FullNamesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.UpdatedAddressesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.TicklerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.incentive_card_counts_vwDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.todo_by_type_counts_vwRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StudiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StatusesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitStatusesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitContactsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumberTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumbersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.AddressesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.SamplingProgramVersionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactsOverviewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.QueriedAccessCodeListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.FullNamesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.UpdatedAddressesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.TicklerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.incentive_card_counts_vwRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:CHCRTracker.CHCR.todo_by_type_counts_vwRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StudiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.StatusesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitStatusesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitContactsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumberTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.PhoneNumbersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.AddressesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.RecruitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.SamplingProgramVersionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.ContactsOverviewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.QueriedAccessCodeListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.FullNamesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.UpdatedAddressesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.TicklerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR.incentive_card_counts_vwRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:CHCRTracker.CHCR">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:CHCRTracker.CHCRTableAdapters.todo_by_type_counts_vwTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.#ctor">
+	<remarks/>
+</member><member name="E:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendCompleted">
+	<remarks/>
+</member><member name="E:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageCompleted">
+	<remarks/>
+</member><member name="E:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCCompleted">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.Send(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.BeginSend(System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.EndSend(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendAsync(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessage(System.String,System.String,System.String,System.Guid)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.BeginSendGeneralMessage(System.String,System.String,System.String,System.Guid,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.EndSendGeneralMessage(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageAsync(System.String,System.String,System.String,System.Guid)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageAsync(System.String,System.String,System.String,System.Guid,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPC(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.BeginSendGeneralMessageRPC(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.EndSendGeneralMessageRPC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.ctrhs_devnet.ExceptionMailer.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:CHCRTracker.ctrhs_devnet.ExceptionMailer">
+	<remarks/>
+</member><member name="T:CHCRTracker.ctrhs_devnet.SendCompletedEventHandler">
+	<remarks/>
+</member><member name="T:CHCRTracker.ctrhs_devnet.SendGeneralMessageCompletedEventHandler">
+	<remarks/>
+</member><member name="T:CHCRTracker.ctrhs_devnet.SendGeneralMessageRPCCompletedEventHandler">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.#ctor">
+	<remarks/>
+</member><member name="E:CHCRTracker.UserInfo.user.GetFullNameCompleted">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.GetFullName(System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.BeginGetFullName(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.EndGetFullName(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.GetFullNameAsync(System.String)">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.GetFullNameAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:CHCRTracker.UserInfo.user.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:CHCRTracker.UserInfo.user">
+	<remarks/>
+</member><member name="T:CHCRTracker.UserInfo.GetFullNameCompletedEventHandler">
+	<remarks/>
+</member><member name="P:CHCRTracker.UserInfo.GetFullNameCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:CHCRTracker.UserInfo.GetFullNameCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

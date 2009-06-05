@@ -1,0 +1,295 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tracker
+</name>
+</assembly>
+<members>
+<member name="M:Tracker.ctrhs_devnet.ExceptionMailer.#ctor">
+	<remarks/>
+</member><member name="E:Tracker.ctrhs_devnet.ExceptionMailer.SendCompleted">
+	<remarks/>
+</member><member name="E:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageCompleted">
+	<remarks/>
+</member><member name="E:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCCompleted">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.Send(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.BeginSend(System.String,System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.EndSend(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendAsync(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessage(System.String,System.String,System.String,System.Guid)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.BeginSendGeneralMessage(System.String,System.String,System.String,System.Guid,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.EndSendGeneralMessage(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageAsync(System.String,System.String,System.String,System.Guid)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageAsync(System.String,System.String,System.String,System.Guid,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPC(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.BeginSendGeneralMessageRPC(System.String,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.EndSendGeneralMessageRPC(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.SendGeneralMessageRPCAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.ctrhs_devnet.ExceptionMailer.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Tracker.ctrhs_devnet.ExceptionMailer">
+	<remarks/>
+</member><member name="T:Tracker.ctrhs_devnet.SendCompletedEventHandler">
+	<remarks/>
+</member><member name="T:Tracker.ctrhs_devnet.SendGeneralMessageCompletedEventHandler">
+	<remarks/>
+</member><member name="T:Tracker.ctrhs_devnet.SendGeneralMessageRPCCompletedEventHandler">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.#ctor">
+	<remarks/>
+</member><member name="E:Tracker.UserInfo.user.GetFullNameCompleted">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.GetFullName(System.String)">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.BeginGetFullName(System.String,System.AsyncCallback,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.EndGetFullName(System.IAsyncResult)">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.GetFullNameAsync(System.String)">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.GetFullNameAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Tracker.UserInfo.user.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Tracker.UserInfo.user">
+	<remarks/>
+</member><member name="T:Tracker.UserInfo.GetFullNameCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Tracker.UserInfo.GetFullNameCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Tracker.UserInfo.GetFullNameCompletedEventArgs">
+	<remarks/>
+</member><member name="T:Tracker.TrackerData.todo_by_type_counts_vwDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.StudiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.StatusesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitStatusesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitContactsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumberTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumbersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.AddressesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.SamplingProgramVersionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactsOverviewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.QueriedAccessCodeListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.FullNamesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.UpdatedAddressesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.TicklerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.incentive_card_counts_vwDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Tracker.TrackerData.todo_by_type_counts_vwRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.StudiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.StatusesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitStatusesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitContactsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumberTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumbersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.AddressesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.SamplingProgramVersionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactsOverviewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.QueriedAccessCodeListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.FullNamesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.UpdatedAddressesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.TicklerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.incentive_card_counts_vwRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Tracker.TrackerData.todo_by_type_counts_vwRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.StudiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.StatusesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitStatusesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitContactsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumberTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.PhoneNumbersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.AddressesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.RecruitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.SamplingProgramVersionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.ContactsOverviewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.QueriedAccessCodeListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.FullNamesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.UpdatedAddressesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.TicklerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData.incentive_card_counts_vwRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Tracker.TrackerData">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Tracker.TrackerDataTableAdapters.todo_by_type_counts_vwTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>

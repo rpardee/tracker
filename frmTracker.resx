@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sdaGetLookupData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>221, 17</value>
+  </metadata>
+  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>398, 17</value>
+  </metadata>
+  <metadata name="sdaRecruitStatuses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>543, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitStatuses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitStatuses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitStatuses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteRecruitStatuses.CommandText" xml:space="preserve">
+    <value>DELETE FROM RecruitStatuses WHERE (RecruitID = @Original_RecruitID) AND (StatusDate = @Original_StatusDate) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Status = @Original_Status)</value>
+  </data>
+  <metadata name="sqlInsertRecruitStatuses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertRecruitStatuses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertRecruitStatuses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertRecruitStatuses.CommandText" xml:space="preserve">
+    <value>INSERT INTO RecruitStatuses (RecruitID, StatusDate, Status) VALUES (@RecruitID, @StatusDate, @Status); SELECT RecruitID, StatusDate, Status, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM RecruitStatuses WHERE (RecruitID = @RecruitID) AND (StatusDate = @StatusDate)</value>
+  </data>
+  <metadata name="sqlUpdateRecruitStatuses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruitStatuses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruitStatuses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateRecruitStatuses.CommandText" xml:space="preserve">
+    <value>UPDATE RecruitStatuses SET RecruitID = @RecruitID, StatusDate = @StatusDate, Status = @Status, AddedBy = @AddedBy, AddedDate = @AddedDate, ModifiedBy = @ModifiedBy, ModifiedDate = @ModifiedDate WHERE (RecruitID = @Original_RecruitID) AND (StatusDate = @Original_StatusDate) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Status = @Original_Status); SELECT RecruitID, StatusDate, Status, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM RecruitStatuses WHERE (RecruitID = @RecruitID) AND (StatusDate = @StatusDate)</value>
+  </data>
+  <metadata name="sdaRecruitContacts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>748, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitContacts.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitContacts.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteRecruitContacts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteRecruitContacts.CommandText" xml:space="preserve">
+    <value>DELETE FROM RecruitContacts WHERE (ContactDate = @Original_ContactDate) AND (RecruitID = @Original_RecruitID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (ContactType = @Original_ContactType) AND (Initiator = @Original_Initiator) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Notes = @Original_Notes OR @Original_Notes IS NULL AND Notes IS NULL) AND (Result = @Original_Result OR @Original_Result IS NULL AND Result IS NULL)</value>
+  </data>
+  <metadata name="sqlInsertRecruitContacts.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertRecruitContacts.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertRecruitContacts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertRecruitContacts.CommandText" xml:space="preserve">
+    <value>INSERT INTO RecruitContacts (RecruitID, ContactDate, Initiator, Result, Notes, ContactType) VALUES (@RecruitID, @ContactDate, @Initiator, @Result, @Notes, @ContactType); SELECT RecruitID, ContactDate, Initiator, Result, Notes, ContactType, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM RecruitContacts WHERE (ContactDate = @ContactDate) AND (RecruitID = @RecruitID)</value>
+  </data>
+  <metadata name="sqlUpdateRecruitContacts.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruitContacts.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruitContacts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateRecruitContacts.CommandText" xml:space="preserve">
+    <value>UPDATE RecruitContacts SET RecruitID = @RecruitID, ContactDate = @ContactDate, Initiator = @Initiator, Result = @Result, Notes = @Notes, ContactType = @ContactType, AddedBy = @AddedBy, AddedDate = @AddedDate, ModifiedBy = @ModifiedBy, ModifiedDate = @ModifiedDate WHERE (ContactDate = @Original_ContactDate) AND (RecruitID = @Original_RecruitID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (ContactType = @Original_ContactType) AND (Initiator = @Original_Initiator) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Notes = @Original_Notes OR @Original_Notes IS NULL AND Notes IS NULL) AND (Result = @Original_Result OR @Original_Result IS NULL AND Result IS NULL); SELECT RecruitID, ContactDate, Initiator, Result, Notes, ContactType, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM RecruitContacts WHERE (ContactDate = @ContactDate) AND (RecruitID = @RecruitID)</value>
+  </data>
+  <metadata name="sdaPhoneNumbers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>954, 17</value>
+  </metadata>
+  <metadata name="sqlDeletePhoneNumbers.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeletePhoneNumbers.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeletePhoneNumbers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeletePhoneNumbers.CommandText" xml:space="preserve">
+    <value>DELETE FROM PhoneNumbers WHERE (AreaCode = @Original_AreaCode) AND (PhoneNumber = @Original_PhoneNumber) AND (RecruitID = @Original_RecruitID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (Extension = @Original_Extension OR @Original_Extension IS NULL AND Extension IS NULL) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Source = @Original_Source OR @Original_Source IS NULL AND Source IS NULL) AND (Type = @Original_Type)</value>
+  </data>
+  <metadata name="sqlInsertPhoneNumbers.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertPhoneNumbers.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertPhoneNumbers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertPhoneNumbers.CommandText" xml:space="preserve">
+    <value>INSERT INTO PhoneNumbers (RecruitID, AreaCode, PhoneNumber, Type, Source, Extension) VALUES (@RecruitID, @AreaCode, @PhoneNumber, @Type, @Source, @Extension); SELECT RecruitID, AreaCode, PhoneNumber, Type, Source, Extension, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM PhoneNumbers WHERE (AreaCode = @AreaCode) AND (PhoneNumber = @PhoneNumber) AND (RecruitID = @RecruitID)</value>
+  </data>
+  <metadata name="sqlUpdatePhoneNumbers.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdatePhoneNumbers.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdatePhoneNumbers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdatePhoneNumbers.CommandText" xml:space="preserve">
+    <value>UPDATE PhoneNumbers SET RecruitID = @RecruitID, AreaCode = @AreaCode, PhoneNumber = @PhoneNumber, Type = @Type, Source = @Source, Extension = @Extension, AddedBy = @AddedBy, AddedDate = @AddedDate, ModifiedBy = @ModifiedBy, ModifiedDate = @ModifiedDate WHERE (AreaCode = @Original_AreaCode) AND (PhoneNumber = @Original_PhoneNumber) AND (RecruitID = @Original_RecruitID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (Extension = @Original_Extension OR @Original_Extension IS NULL AND Extension IS NULL) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (Source = @Original_Source OR @Original_Source IS NULL AND Source IS NULL) AND (Type = @Original_Type); SELECT RecruitID, AreaCode, PhoneNumber, Type, Source, Extension, AddedBy, AddedDate, ModifiedBy, ModifiedDate FROM PhoneNumbers WHERE (AreaCode = @AreaCode) AND (PhoneNumber = @PhoneNumber) AND (RecruitID = @RecruitID)</value>
+  </data>
+  <metadata name="sdaAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteAddresses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteAddresses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteAddresses.CommandText" xml:space="preserve">
+    <value>DELETE FROM Addresses WHERE (AddressID = @Original_AddressID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (BounceDate = @Original_BounceDate OR @Original_BounceDate IS NULL AND BounceDate IS NULL) AND (City = @Original_City) AND (Country = @Original_Country OR @Original_Country IS NULL AND Country IS NULL) AND (County = @Original_County OR @Original_County IS NULL AND County IS NULL) AND (Line1 = @Original_Line1) AND (Line2 = @Original_Line2 OR @Original_Line2 IS NULL AND Line2 IS NULL) AND (ModifiedBy = @Original_ModifiedBy OR @Original_ModifiedBy IS NULL AND ModifiedBy IS NULL) AND (ModifiedDate = @Original_ModifiedDate OR @Original_ModifiedDate IS NULL AND ModifiedDate IS NULL) AND (PreferenceRank = @Original_PreferenceRank) AND (RecruitID = @Original_RecruitID) AND (State = @Original_State) AND (Zip = @Original_Zip)</value>
+  </data>
+  <metadata name="sqlInsertAddresses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertAddresses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertAddresses.CommandText" xml:space="preserve">
+    <value>INSERT INTO Addresses (RecruitID, PreferenceRank, Line1, Line2, City, State, Zip, Country, County, BounceDate) VALUES (@RecruitID, @PreferenceRank, @Line1, @Line2, @City, @State, @Zip, @Country, @County, @BounceDate); SELECT AddressID, RecruitID, PreferenceRank, Line1, Line2, City, State, Zip, AddedBy, AddedDate, ModifiedBy, ModifiedDate, Country, County, BounceDate FROM Addresses WHERE (AddressID = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectAddresses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectAddresses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateAddresses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateAddresses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateAddresses.CommandText" xml:space="preserve">
+    <value>UPDATE Addresses SET RecruitID = @RecruitID, PreferenceRank = @PreferenceRank, Line1 = @Line1, Line2 = @Line2, City = @City, State = @State, Zip = @Zip, Country = @Country, County = @County, BounceDate = @BounceDate WHERE (AddressID = @Original_AddressID) AND (AddedBy = @Original_AddedBy) AND (AddedDate = @Original_AddedDate) AND (BounceDate = @Original_BounceDate OR @Original_BounceDate IS NULL AND BounceDate IS NULL) AND (City = @Original_City) AND (Country = @Original_Country OR @Original_Country IS NULL AND Country IS NULL) AND (County = @Original_County OR @Original_County IS NULL AND County IS NULL) AND (Line1 = @Original_Line1) AND (Line2 = @Original_Line2 OR @Original_Line2 IS NULL AND Line2 IS NULL) AND (PreferenceRank = @Original_PreferenceRank) AND (RecruitID = @Original_RecruitID) AND (State = @Original_State) AND (Zip = @Original_Zip); SELECT AddressID, RecruitID, PreferenceRank, Line1, Line2, City, State, Zip, AddedBy, AddedDate, ModifiedBy, ModifiedDate, Country, County, BounceDate FROM Addresses WHERE (AddressID = @AddressID)</value>
+  </data>
+  <metadata name="sdaRecruits.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 60</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="SqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE Recruits
+SET       LastName = @LastName, AccLetter = @AccLetter, AccNumber = @AccNumber, Sex = @Sex, BDate = @BDate, LastVistDate = @LastVistDate, 
+               FirstName = @FirstName, MiddleName = @MiddleName, NameSuffix = @NameSuffix, EMailAddress = @EMailAddress, 
+               RecruitProgVersion = @RecruitProgVersion, Incentive = @Incentive, PersonType = @PersonType, QuitDate = @QuitDate
+WHERE (RecruitID = @Original_RecruitID)</value>
+  </data>
+  <metadata name="sqlUpdateRecruits.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruits.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateRecruits.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateRecruits.CommandText" xml:space="preserve">
+    <value>UPDATE    Recruits
+SET              Sex = @Sex, Randy = @Randy, BDate = @BDate, EMailAddress = @EMailAddress, LastVistDate = @LastVistDate, LastName = @LastName, 
+                      FirstName = @FirstName, MiddleName = @MiddleName, NameSuffix = @NameSuffix, SeqNum = @SeqNum, 
+                      RecruitProgVersion = @RecruitProgVersion, Study = @Study, Incentive = @Incentive
+WHERE     (RecruitID = @Original_RecruitID)</value>
+  </data>
+  <metadata name="ctReports.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>327, 60</value>
+  </metadata>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>455, 60</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
+        DwAAAk1TRnQBSQFMAgEBCwEAAQ4BAAEEAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAATADAAEBAQABCAYAAQwYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wcAAQMC7AgADOwFAAES
+        A/MB7AEeAwsCHgEHAewWAAIDAuwTAAHsBQAB7AHzAR4B7AHzAfkBIAEfAgsBEgEHAewWAAIDAuwIAAT/
+        BOwC/wEABOwCAAHsAh4C8wH5AQcB7AEfAQsBEgILFgACAwLsCAAE/wTsAv8EAAHsAwABHgH5AvMBlAEg
+        AR8B7AEeAQsBIAEfAQsVAAIDAQAEBwUABP8D7AH/AgEBAAHsAf8BAAHsAgABHgH5AZQB8wL5AUIBHwIe
+        AfkBIAEfAR4WAAgHAwAIBwIBAQAB7AH/AQAB7AIAAR4B8wL5AkIBhQEfAYUBHgH5ASABHwEeFAAEBwEA
+        BQcEAAj/AQABBwEAAf8BAAHsAgABHgH5AkIChQEgAR8BhQEeAfkBlAIeEgAFBwHsAQAEBwcABP8CAAEH
+        AQAB7AH/AQAD7AEeAUIChQL5Af8BIAEfAQsBlALjAQsSAAUHAewBAAMHAQAB7AoAAgcBAALsAf8BAAHs
+        Af8B7AEeAYUC+QH/AZQB4wGUAiABHwILEwAFBwHsAQADBwHsCAAB/wHsAQAC/wEAAuwB/wEAAuwB+QEe
+        AfkB/wGUAuMBhQEfAuMCCxQABQcB7AEAAf8BAAMHBwAB/wHsAQAD/wEAAewB/wEAAewBHgH5Ah4C4wHN
+        AUIChQILFgAEBwH/AewBAAL/AQABBwgAAf8B7AEAAf8BAAH/AQAB7AH/AQAB7AIeAZQB/wEeAYUBUwE4
+        A4UXAAEHAv8D7AEAAQcB7AoAAf8B7AQAAuwB/wEAAewCAAIeAZQBhQHvAdQBzQKFFwAD/wP5DQAB/wLs
+        AgAD7AH/AQAB7AQAAR4BhQHxAc0BhQHNAYUYAAH/AQcD+Q0ACf8BAAHsBgAChQHNAQABhTsAAYUaAA/s
+        EAAQBwEACusBFQIHAW0QAAHsBQAGAgUAAQQCBwQAAQcDAAEHAwABBwEACv8B7AEHAW0DAAMHAQACBwEA
+        AuwBAAEHAQABBwEAAewDAAQCAv8EAgMAEAcBAAb/AfABAAEPARUBDwMAAewBAAMHAQACBwEAAuwBAAEH
+        AQABBwEAAewCAAUCAv8FAgIAAQQCBwQAAQcDAAEHAwABBwEABv8BEAHtAe8BBwFtAgAB7QEHAQADBwEA
+        AgcBAALsAQABBwEAAQcBAAHsAgAMAgIAEAcBAAb/AQ4CBwH/AQYBEAEOAgcBAAMHCQABBwEAAewBAA4C
+        AQABBAIHBAABBwMAAQcDAAEHAQAG/wFtAfIBBwHxAW0BBwFtAgcBAA0HAQAB7AEABgIC/wYCAQAQBwEA
+        Bv8B6gH+AfIBBwFtAe8B6gIHAQABBwsAAQcBAAHsAQAGAgP/BQIBAAEEAgcEAAEHAwABBwMAAQcBAAb/
+        AQABugHhAfIBbQIAAgcBAAEHAQAJ/wEAAQcBAAHsAQAHAgL/BQIBABAHAQAG/wHsAQ4BbQEHAW0BAAHq
+        AgcBAAEHAQAJ/wEAAQcBAAHsAQAHAgP/BAIBAAEEAgcEAAEHAwABBwMAAQcBAAf/A20BQwETAwcBAAEH
+        AQAJ/wEAAQcBAAHsAQAEAgL/AgIC/wQCAQAQBwEACv8B7AQHAQABBwEACf8BAAEHAQAB7AIAAwIC/wIC
+        Av8DAgIAEAQBAAf/AwcBbQQHAQABBwEACf8BAAEHAQAB7AIAAwIG/wMCAgAQBwEAB/8BAALsARQEBwEA
+        AQcBAAn/AwAB7AMAAwIE/wMCAwADBwQAAQcDAAEHAwABBwEAB/8BAAHvAQ8FBwEAAQcBAAn/AQAB/wEA
+        AewFAAYCBQAQBwEAB/8BAAFtBgcgABAHCQAHB5IAAQMSAAH/AgcC7BgAAf8BBw8AAQMSAAH/AQcB7BoA
+        Af8BBw4AAfsBAxAAAv8BBwLsGgAB/wEHDgAB+wEDDgAE/wEHAuwJAAH/BQAB/wEAAf8XAAL7AQMNAAfs
+        CgAB/wQAAv8JAAEHDgAD+wEDDAAH/wkABP8BAAP/CgABBw0AA/sLAAH/AQcHAAEHAewLAAX/CgABBw0A
+        AvsBAwoAC/8HAAH/EwABBwwAA/sBAwkAC/8DAAHsAQAB/wEAAf8UAAEHDAAD+wEDCAABBwMAB/8GAAL/
+        FQABBwIAAewBBwcABPsBAwcAC+weAAEHAewBBwHsCAAE+wEDBgAL/x8AAQcB7AEHCAAF+wEDYwABQgFN
+        AT4HAAE+AwABKAMAAUADAAEwAwABAQEAAQEFAAGAAQEWAAP/AQAB/AF/AYABBwHAAwAB+AF/AQABBwHA
+        AwAB+AF/AgABwAMAAfgBHwIAAeADAAH4AQcCAAHAAwAB+AEBAgABwAMAAeABAQGABQABgAEBAcAFAAGA
+        AQEB8AIAAQECAAGAAQEB8AIAAQMCAAGAAQMB8AIAAQ8CAAGAAQMB8AIAAR8CAAGAAQ8B8AEAAcABHwIA
+        AcABPwHwAQAB8AEfAgABwAF/AfABAAH8AV8CAAHzAf8B8AEBAf0B/wIAAYABAAH4AR8GAAHgAQcGAAHA
+        AQMGAAGAAQEGAAGAAQE2AAGAAQEGAAGAAQEGAAHAAQMGAAHgAQcFAAEBAfgBHwQAAv8BvwX/AT8B/wGf
+        Af8B8AEfAv8BjwH/AY8B/wHwAR8C/wGHAf8BxwH/AfgBPwHPAT8BwQH/AcMB/wHwAR8B5wGTAeABfwHh
+        Af8B4AEPAeEBgwHwAT8BwAH/AeABDwHwAQcB8AEfAeABfwHAAQcB4AEHAfgBDwHgAT8BgAEDAeABAwH4
+        AQcB8AF/AYABAwIAAfwBAwHwAT8BgAIDAf8B/gEBAfgBHwGAAQMBwwL/AQAB+AEPAcABBwHnAv8BgAH8
+        AQcBgAEDA/8BwAH8AQMBwAEHA/8B4AH+AQEE/ws=
+</value>
+  </data>
+  <metadata name="tt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>594, 60</value>
+  </metadata>
+  <metadata name="sdaGetSubstantiveData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>657, 60</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sdaUpdatedAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>895, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteUpdatedAddresses.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteUpdatedAddresses.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteUpdatedAddresses.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteUpdatedAddresses.CommandText" xml:space="preserve">
+    <value>DELETE FROM UpdatedAddresses WHERE (AddressID = @Original_AddressID) AND (City = @Original_City) AND (Line1 = @Original_Line1) AND (Line2 = @Original_Line2 OR @Original_Line2 IS NULL AND Line2 IS NULL) AND (PreferenceRank = @Original_PreferenceRank) AND (RecruitID = @Original_RecruitID) AND (State = @Original_State) AND (Zip = @Original_Zip)</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>120</value>
+  </metadata>
+</root>

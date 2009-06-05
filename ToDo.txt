@@ -1,0 +1,45 @@
+Add feature to generate an extra letter addressed to the user!
+
+Refresh recruit status info on save (or on current recruit?)
+
+Add update trigger to AccessCodes! DONE
+
+Add find button
+
+Add sort button
+
+Finish Recruit Detail form.
+   Fix problem w/<placeholder> showing on first browsed rec. DONE
+   
+Add autosave feature.
+   - In thread_idle event, after some max # of changes?
+   
+Fix change tracking logic. HUH?
+
+Fix problem w/editing Status rows. DONE!
+
+Update AccNumbers to include the leading zeros--and update the import script as well. DONE
+
+Add combo boxes to Browser.
+
+Fix current status label on detail form. DONE
+
+Fix problem w/default values of 'now()'--they're getting the literal, not the expression. DONE
+
+Feature: Double-click record on browser pulls clicked record up in details form?
+
+Add calculated columns to Recruits for: DONE
+   Current Status
+   Last Status Change
+   Last Contact Date
+   Last Contact Type
+
+Views for: DONE
+   Current best address
+   Current status
+   Last contact
+
+Add preference rank for phone numbers, so we can keep hx.
+
+Write sproc/trigger for assigning access codes to P1 recruits.
+   - Preferably one that will match the SAS logic.  DONE
